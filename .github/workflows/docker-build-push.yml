@@ -12,6 +12,9 @@ on:
 
 env:
   REGISTRY: ghcr.io
+  IMAGE_NAMESPACE: denis63-s/cinema
+
+  REGISTRY: ghcr.io
   MONOLITH_IMAGE_NAME: ${{ github.repository }}/monolith
   MOVIES_SERVICE_IMAGE_NAME: ${{ github.repository }}/movies-service
   EVENTS_SERVICE_IMAGE_NAME: ${{ github.repository }}/events-service
